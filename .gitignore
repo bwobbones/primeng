@@ -4,8 +4,8 @@
 /dist
 /tmp
 /out-tsc
-/components
-/resources
+#/components
+#/resources
 /aot
 
 # dependencies
@@ -37,9 +37,9 @@ testem.log
 /typings
 
 # themes
-/src/assets/components/themes/**/*.css
-/src/assets/components/themes/**/*.map
-!/src/assets/components/themes/bootstrap/theme.css
+#/src/assets/components/themes/**/*.css
+#/src/assets/components/themes/**/*.map
+#!/src/assets/components/themes/bootstrap/theme.css
 
 # e2e
 /e2e/*.js
